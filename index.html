@@ -1,158 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website">
-    <title>My Personal Website</title>
+    <title>Jamila Waziry</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" type="image/jpg" href="gem.jpg">
 </head>
+
 <body>
-    <header>
-        <h1>Jamila Waziry</h1>
-        <p>Web Developer | Strategy & Project Management </p>
-    </header>
     <nav>
-        <a href="#about">About</a>
         <a href="#education">Education</a>
-        <a href="#certificates"></a>
+        <a href="#certificates">Certificates</a>
         <a href="#skills">Skills</a>
         <a href="#experiance">Experiance</a>
-        <a href="projects">Projects</a>
         <a href="contact">Contact</a>
     </nav>
+    <header class="img">
+        <h1>Jamila Waziry</h1>
+        <p>Web Developer | Strategy & Project Management </p>
+        <p>
+            Web Developer with a passion for building modern, responsive, and visually engaging websites.
+            I enjoy turning ideas into real-world digital experiences using modern web technologies.
+            I’m driven by curiosity and continuous learning, always exploring new technologies to create efficient,
+            elegant, and impactful solutions that stand out.
+        </p>
+    </header>
+
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
 
-            </p>
-        </section>
-
-        <section id="education">
+        <section id="education" class="layout">
             <h2>Education</h2>
-            <div>
-                <article>
-                    <h3>University</h3>
-                    <p>2018-2022</p>
-                    <img src="" alt="Kabul Polytechnic University">
-                    <p>text</p>
+            <div class="educations">
+                <article class="education">
+                    <img src="Polytechnic1.jpg" alt="Kabul Polytechnic University">
+                    <h3>Kabul Polytechnic University</h3>
+                    <p class="date">2018-2022</p>
+                    <p>I earned my Bachelor’s degree in Computer Science from the Faculty of Computer Engineering at
+                        KPU. During my studies, I developed a solid understanding of software development, systems
+                        design, and data management. This academic background has prepared me to approach complex
+                        technical problems with confidence and contribute innovative solutions in the field of
+                        technology.</p>
                 </article>
 
-                  <article>
-                    <h3>School</h3>
-                    <p>2018-2022</p>
-                    <img src="" alt="Bibi Mahro High School">
-                    <p>text</p>
+                <article class="education">
+                    <img src="school.jpeg" alt="Bibi Mahro High School">
+                    <h3>Bibi Mahro High School</h3>
+                    <p class="date">2016</p>
+                    <p>I am proud to have completed my 12-year academic journey at Bibi Mahro High School. This long
+                        period of study helped me build a strong educational base for my future goals, while also
+                        shaping my character and teaching me valuable life lessons and principles that continue to guide
+                        me today.</p>
                 </article>
             </div>
         </section>
 
-        <section id="certificates">
-        <h2>My Certificates</h2>
+        <section id="certificates" class="layout certificates">
+            <h2>My Certificates</h2>
 
-        <div>
+            <div class="gallery">
 
-            <a href="#img3" class="nav left">&#60;</a>
+                <input type="radio" name="slide" id="s1" checked>
+                <input type="radio" name="slide" id="s2">
+                <input type="radio" name="slide" id="s3">
+                <input type="radio" name="slide" id="s4">
+                <input type="radio" name="slide" id="s5">
 
-            <div class="slides">
-            <img id="img1" src="" alt="">
-            <img id="img2" src="" alt="">
-            <img id="img3" src="" alt="">
-            </div>
 
-            <a href="#img2" class="nav right">&#62;</a>
-
-        </div>
-        </section>
-
-         <section id="skills">
-            <h2>Skills</h2>
-             <ul >
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                </ul>
-        </section>
-
-          <section id="experiance">
-            <h2>Work Experiance</h2>
-            <div>
-                <div>
-                    <h3>Etisalat Afghanistan</h3>
-                    <img src="" alt="Etisalat Afghanistan">
-                    <p>text</p>
+                <div class="gallery-track">
+                    <img src="certificatePBI.jpg" alt="Certificate 1">
+                    <img src="certificateCE.jpg" alt="Certificate 2">
+                    <img src="certificatePBI.jpg" alt="Certificate 3">
+                    <img src="certificateCS.jpeg" alt="Certificate 4">
+                    <img src="certificatePPT.jpg" alt="Certificate 5">
                 </div>
 
-                  <div>
-                    <h3>CodeAlpha</h3>
-                    <img src="" alt="CodeAlpha">
-                    <p>text</p>
-                  </div>
-
-                  <div>
-                    <h3>CodeWeekend</h3>
-                    <img src="" alt="CodeWeekend">
-                    <p>text</p>
-                  </div>
+                <div class="radio-nav">
+                    <label for="s1"></label>
+                    <label for="s2"></label>
+                    <label for="s3"></label>
+                    <label for="s4"></label>
+                    <label for="s5"></label>
+                </div>
             </div>
         </section>
-        
-        <section id="projects">
-            <h2>Projects</h2>
-            <div>
-                <P></P>
-                <p></p>
-            </div>
-            <div>
-                <video>
 
-                </video>
+        <section id="skills" class="layout">
+            <h2>Skills</h2>
+            <div class="card">
+                <h3>Technologies</h3>
+                <ul class="skills-list">
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                            alt="HTML logo">
+                        <span>HTML</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                            alt="CSS Logo">
+                        <span>CSS</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript Logo">
+                        <span>JavaScript</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                            alt="Java">
+                        <span>Java</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                            alt="Angular Logo">
+                        <span>Angular</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                            alt="Postgresql Logo">
+                        <span>Postgresql</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+                            alt="Canva logo">
+                        <span>Canva</span>
+
             </div>
+
+            <div class="card">
+                <h3>Tools</h3>
+                <ul class="skills-list">
+                    <li>
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+                        <span>VS Code</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                            alt="Git Logo">
+                        <span>Git</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                            alt="GitHub">
+                        <span>GitHub</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                            alt="Docker Logo">
+                        <span>Docker</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netbeans/netbeans-original.svg"
+                            alt="NetBeans">
+                        <span>NetBeans</span>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiance">
+            <h2>Work Experiance</h2>
+            <div class="experiences">
+                <div class="experiance">
+                    <div class="logo">
+                        <img src="etisalat.png" alt="Etisalat Afghanistan">
+                        <h3>Etisalat Afghanistan</h3>
+                    </div>
+                    <p>I worked as a Strategy and Project Management Intern at Etisalat Afghanistan for one year and two
+                        months,
+                        where I supported strategic planning and project coordination activities. I assisted in
+                        organizing
+                        tasks, contributing to project execution, and collaborating within a structured environment,
+                        which
+                        helped me develop strong analytical and organizational skills.</p>
+                </div>
+
+                <div class="experiance">
+                    <div class="logo">
+                        <img src="codealpha.jpg" alt="CodeAlpha">
+                        <h3>CodeAlpha</h3>
+                    </div>
+                    <p>I am currently working as a Web Development Intern at CodeAlpha, where I focus on building and
+                        improving
+                        websites. I work independently on assigned tasks to develop responsive designs, write clean
+                        code, and
+                        enhance user experience, while continuously strengthening my technical and problem-solving
+                        skills.</p>
+                </div>
+
+                <div class="experiance">
+                    <div class="logo">
+                        <img src="codeWeekend.png" alt="CodeWeekend">
+                        <h3>CodeWeekend</h3>
+                    </div>
+                    <p>I am proud to be part of CodeWeekend, where I am learning web development and building websites
+                        through
+                        hands-on practice. I work on improving my HTML, CSS, and JavaScript skills by completing small
+                        projects
+                        and guided tasks. This experience is helping me better understand how websites are structured
+                        and how to
+                        turn ideas into functional web pages.</p>
+                </div>
+            </div>
+        </section>
+
         </section>
         <section>
-            <div>
-            <h3>Fun Fact About Me</h3>
-            <p></p>
-            </div>
-
-            <div>
-                <h3>Goals</h3>
-                <ol>
-                    <li></li>
-                </ol>
+            <div class="fun">
+                <h3>Fun Fact About Me</h3>
+                <p>I like experimenting with code until it breaks, because that’s usually when I learn the most. I enjoy
+                    tweaking small parts of my code just to see what unexpected results happen.</p>
             </div>
 
         </section>
 
-        <section id="contact">
-        <h2>Contact Me</h2>
+        <section id="contact" class="contact">
+            <div class="info">
+                <h2>Contact Me!</h2>
+                <h3>I’d love to hear from you — let’s connect!</h3>
+                <p>You can get in touch with me using the contact form on this website. Just enter your name, email, and
+                    message, and I’ll respond as soon as possible.</p>
+                <br>
+                <address>
+                    Qala-e-Fathullah Saleem Karwan<br>
+                    Kabul Afghanistan
+                </address>
+                <div class="icons">
+                    <a href="https://github.com/dashboard"><i class="fab fa-github"></i></a>
+                    <a href="jamilawaziry07.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a
+                        href="https://www.linkedin.com/in/jamila-waziry-6466a8248?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            
-            <input type="email" placeholder="Your Email" required>
-            
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
+            <form class="form" action="https://formspree.io/f/mkokjgrd" method="POST">
+                <label>Your Name</label>
+                <input type="text" placeholder="Your Name" required>
+
+                <label>Your Email Address</label>
+                <input type="email" placeholder="Your Email" required>
+
+                <label>Your Message</label>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
         </section>
 
         <footer>
             <p>© 2026 Jamila Waziry. All rights reserved.</p>
-
-            <div> 
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-            </div>
 
             <a href="#top">↑ Back to Top</a>
         </footer>
 
     </main>
 </body>
+
 </html>
