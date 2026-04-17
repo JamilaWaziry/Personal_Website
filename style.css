@@ -378,8 +378,6 @@ footer a:hover {
 @media(max-width: 768px) {
   nav {
     text-align: left;
-    flex-direction: column;
-    gap: 10px;
   }
 
   nav a {
@@ -392,8 +390,8 @@ footer a:hover {
   }
 
   header.img p {
-    padding: 0 15px;
-    font-size: 95%;
+    padding: 0 20px;
+    font-size: 90%;
   }
 
   .educations,
@@ -414,10 +412,6 @@ footer a:hover {
     flex-direction: column;
     padding: 20px;
     /* align-items: center; */
-  }
-  img{
-    max-width: 100%;
-    height: auto;
   }
 
   .info,
